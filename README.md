@@ -51,6 +51,19 @@ where `run.sh` covers the following scenarios:
 
 - RSDO5 dataset with XLM-RoBERTa in mono-lingual, cros-lingual, and multi-lingual settings with cross-lingual and multi-lingual taking into account the ANN and NES version (48 scenarios).
 
+Feel free to hyper-parameter tune the model. The current settings are:
+
+```python
+    num_train_epochs=20,             # total # of training epochs
+    per_device_train_batch_size=32,  # batch size per device during training
+    per_device_eval_batch_size=32,   # batch size for evaluation 
+    learning_rate=2e-5,              # learning rate
+    eval_steps = 500,
+    load_best_model_at_end=True,     # load the best model at the end of training
+    metric_for_best_model="f1",
+    greater_is_better=True,
+```
+
 ## 5. Results
 
 ### 5.1 ACTER dataset
