@@ -1,8 +1,8 @@
-# Evaluation on Cross-lingual and Multi-lingual approaches compared to Mono-lingual in Cross-domain Automatic Term Extraction
+# Comparison among Mono-lingual, Cross-lingual, and Multi-lingual approaches to Automatic Term Extraction
 
 ## 1. Description
 
-Automatic term extraction (ATE) is a popular research task that eases the effort of manually identifying terms from domain-specific corpora by providing a list of candidate terms. In this paper, we experiment with Transformer-based pretrained language models, namely, XLM-RoBERTa to evaluate the abilities of (zero-shot) cross-lingual and multi-lingual learning in comparison with the mono-lingual setting in the cross-domain sequence labeling ATE task. The experiments are conducted on the manually  Annotated Corpora for Term Extraction Research (ACTER) dataset, a collection of four domain-specific corpora (Corruption, Wind energy, Equitation, and Heart failure) in three languages (English, French, and Dutch).  Furthermore, we evaluate our proposed hypothesis on Slovenian RSDO5 dataset, which covers four domains: Biomechanics, Chemistry, Veterinary, and Linguistics.
+In this repo, we experiment  XLM-RoBERTa on ACTER and RSDO5 dataset to evaluate the abilities of (zero-shot) cross-lingual and multi-lingual learning in comparison with the mono-lingual setting in the cross-domain sequence labeling automatic term extraction (ATE) task and compare our models' performance towards the benchmarks.
 
 ---
 
@@ -14,7 +14,16 @@ Please install all the necessary libraries noted in [requirements.txt](./require
 pip install -r requirements.txt
 ```
 
-## 3. Implementation
+## 3. Data
+
+The experiments were conducted on 2 datasets:
+
+||ACTER dataset| RSDO5 dataset|
+|:-:|:-:|:-:|
+|Languages|English, French, and Dutch|Slovenian|
+|Domains|Corruption,  Wind energy, Equitation, Heart failure|Biomechanics, Chemistry, Veterinary, and Linguistics|
+
+## 4. Implementation
 
 As the orginal dataset does not follow IOB format, we preprocess the data to sequentially map each token with it regarding label. For ACTER dataset, run the following command to preprocess the data:
 
@@ -39,9 +48,9 @@ where `run.sh` covers the following scenarios:
 - RSDO5 dataset with XLM-RoBERTa in mono-lingual, cros-lingual, and multi-lingual settings with cross-lingual and multi-lingual taking into account the ANN and NES version (48 scenarios).
 
 
-## 4. Data
-
 ## 5. Results
+
+
 
 ## References
 
