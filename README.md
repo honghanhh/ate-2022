@@ -25,7 +25,11 @@ The experiments were conducted on 2 datasets:
 
 ## 4. Implementation
 
-As the orginal dataset does not follow IOB format, we preprocess the data to sequentially map each token with it regarding label. For ACTER dataset, run the following command to preprocess the data:
+As the orginal dataset does not follow IOB format, we preprocess the data to sequentially map each token with it regarding label. An example of IOB format is demontrated below.
+
+![](./imgs/ex.png)
+
+For ACTER dataset, run the following command to preprocess the data:
 
 ```python
 preprocess.py [-corpus_path] [-term_path] [-output_csv_path] [-language]
