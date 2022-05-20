@@ -117,7 +117,7 @@ We report the following results from all scenarios in terms of $F_{1}$ score for
 |kem    |vet    | 68.94  | 
 |bim    |vet    | 68.68  |
 
-</td><td></table>
+</td></tr> </table>
 </center>
 
 <center>
@@ -139,7 +139,7 @@ We report the following results from all scenarios in terms of $F_{1}$ score for
 |ling   |bim    |63.69  | 
 |kem    |bim    |63.16  |
 
-</td><td></table>
+</td></tr> </table>
 </center>
 
 #### 5.2.1 XLM-RoBERTa in multi-lingual settings
@@ -163,7 +163,7 @@ We report the following results from all scenarios in terms of $F_{1}$ score for
 |kem    |vet    |69.29  | 69.09	|
 |bim    |vet    |69.09  | 66.91	|
 
-</td><td></table>
+</td></tr> </table>
 </center>
 
 <center>
@@ -185,7 +185,7 @@ We report the following results from all scenarios in terms of $F_{1}$ score for
 |ling   |bim    |62.13  | 62.44	|
 |kem    |bim    |62.26  | 64.31	|
 
-</td><td></table>
+</td></tr> </table>
 </center>
 
 ## References
