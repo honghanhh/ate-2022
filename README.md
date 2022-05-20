@@ -21,7 +21,7 @@ The experiments were conducted on 2 datasets:
 ||ACTER dataset| RSDO5 dataset|
 |:-:|:-:|:-:|
 |Languages|English, French, and Dutch|Slovenian|
-|Domains|Corruption,  Wind energy, Equitation, Heart failure|Biomechanics(bim), Chemistry (kem), Veterinary (vet), and Linguistics (ling)|
+|Domains|Corruption,  Wind energy, Equitation, Heart failure|Biomechanics, Chemistry, Veterinary, Linguistics |
 
 ## 4. Implementation
 
@@ -46,7 +46,6 @@ where `run.sh` covers the following scenarios:
 - ACTER dataset with XLM-RoBERTa in mono-lingual, cros-lingual, and multi-lingual settings with both ANN and NES version with multi-lingual settings covering only three languages from ACTER and additional Slovenian add-ons (10 scenarios).
 
 - RSDO5 dataset with XLM-RoBERTa in mono-lingual, cros-lingual, and multi-lingual settings with cross-lingual and multi-lingual taking into account the ANN and NES version (48 scenarios).
-
 
 ## 5. Results
 
@@ -89,8 +88,8 @@ We report the following results from all scenarios in terms of $F_{1}$ score for
 </td></tr> </table>
 </center>
 
-
 ### 5.2 RSDO5 dataset
+
 We report the following results from all scenarios in terms of $F_{1}$ score for RSDO5 dataset. The full results are available later in our paper.
 
 #### 5.2.1 XLM-RoBERTa in mono-lingual settings
@@ -162,8 +161,6 @@ We report the following results from all scenarios in terms of $F_{1}$ score for
 
 </td><td></table>
 </center>
-
-
 
 <center>
 <table>
