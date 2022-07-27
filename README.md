@@ -1,8 +1,10 @@
-# Comparison among Mono-lingual, Cross-lingual, and Multi-lingual approaches to Automatic Term Extraction
+#  Can Cross-domain Term Extraction Benefit from Cross-lingual Transfer?
 
 ## 1. Description
 
-In this repo, we experiment  XLM-RoBERTa on ACTER and RSDO5 dataset to evaluate the abilities of (zero-shot) cross-lingual and multi-lingual learning in comparison with the mono-lingual setting in the cross-domain sequence labeling automatic term extraction (ATE) task and compare our models' performance towards the benchmarks.
+In this repo, we applied XLMRoBERTa to investigate the possibilities of cross- and multi-lingual learning toward the monolingual setting in cross-domain sequence-labeling term extraction and examined the cross-lingual effect of rich-resourced training language on less- resourced testing one. The results demonstrate a promising impact of multi-lingual and cross-lingual cross-domain learning that outperforms the related works in both datasets, which proves their potential when transferring from the rich- to the less-resourced languages. 
+
+The work has been accepted in [25th International Conference on Discovery Science, 2022](https://ds2022.sciencesconf.org/).
 
 ---
 
@@ -201,9 +203,11 @@ We report the following results from all scenarios in terms of $F_{1}$ score for
 </td></tr> </table>
 </center>
 
+The newest results with further details and discussions will be specified in the paper (It will be released soon).
+<!-- 
 ## References
 
-Lang, C., Wachowiak, L., Heinisch, B., & Gromann, D. Transforming Term Extraction: Transformer-Based Approaches to Multilingual Term Extraction Across Domains. [(PDF)](https://aclanthology.org/2021.findings-acl.316.pdf)
+Lang, C., Wachowiak, L., Heinisch, B., & Gromann, D. Transforming Term Extraction: Transformer-Based Approaches to Multilingual Term Extraction Across Domains. [(PDF)](https://aclanthology.org/2021.findings-acl.316.pdf) -->
 
 ## Contributors:
 - 🐮 [TRAN Thi Hong Hanh](https://github.com/honghanhh) 🐮
