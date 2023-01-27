@@ -203,11 +203,11 @@ We report the following results from all scenarios in terms of $F_{1}$ score for
 </td></tr> </table>
 </center>
 
-The newest results with further details and discussions will be specified in the paper (It will be released soon).
-<!-- 
+The newest results with further details and discussions will be specified in the paper in the Reference.
+
 ## References
 
-Lang, C., Wachowiak, L., Heinisch, B., & Gromann, D. Transforming Term Extraction: Transformer-Based Approaches to Multilingual Term Extraction Across Domains. [(PDF)](https://aclanthology.org/2021.findings-acl.316.pdf) -->
+Tran, Hanh Thi Hong, et al. "[Can Cross-Domain Term Extraction Benefit from Cross-lingual Transfer?](https://link.springer.com/chapter/10.1007/978-3-031-18840-4_26)." Discovery Science: 25th International Conference, DS 2022, Montpellier, France, October 10–12, 2022, Proceedings. Cham: Springer Nature Switzerland, 2022.
 
 ## Contributors:
 - 🐮 [TRAN Thi Hong Hanh](https://github.com/honghanhh) 🐮
